@@ -6,7 +6,7 @@ def read(filename):
   with open(filename, "r", encoding="utf-8") as file:
     return file.read()
 
-with open("", "r") as file:
+with open("vktools/version.py", "r") as file:
   version = re.findall(r"[0-9]+.[0-9]+.[0-9]+", file.read())[0]
 
 setup(name="vktools",
