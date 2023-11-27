@@ -2,7 +2,7 @@ import vk_api
 from vk_api.longpoll import VkLongPoll, VkEventType
 from vktools import Keyboard, ButtonColor, Text
 
-vk = vk_api.VkApi(token="")
+vk = vk_api.VkApi(token="token")
 api = vk.get_api
 
 def send_message(user_id, message, **kwargs):
